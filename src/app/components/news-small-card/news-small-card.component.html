@@ -1,14 +1,14 @@
 <div class="container-small-card">
   <div class="container-small-card-content">
-    <a href="#">
+    <a [routerLink]="['content', id]">
       <div class="photo-small-card">
         <img
-          src="https://pbs.twimg.com/media/F0TBergXwAIg82w.jpg:large"
+          src={{photo}}
           alt=""
         >
       </div>
       <div class="title-small-card">
-        <h1>Presidente fala sobre planejamento do time para nova temporada</h1>
+        <h1>{{title}}</h1>
       </div>
     </a>
   </div>

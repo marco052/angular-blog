@@ -14,7 +14,7 @@
 
 .photo-small-card > img {
   width: 200px;
-  min-width: 200px;
+  height: 120px;
   margin-right: 20px;
 }
 
@@ -24,7 +24,8 @@
   align-items: center;
 }
 
-.container-small-card-separator{
+.container-small-card-separator > hr{
   margin-top: 10px;
+  border-color: gray;
 }
 

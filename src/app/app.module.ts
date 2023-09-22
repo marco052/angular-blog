@@ -8,6 +8,7 @@ import { MainTitleComponent } from './components/main-title/main-title.component
 import { NewsSmallCardComponent } from './components/news-small-card/news-small-card.component';
 import { NewsBigCardComponent } from './components/news-big-card/news-big-card.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './pages/home/home.component';
     MainTitleComponent,
     NewsSmallCardComponent,
     NewsBigCardComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

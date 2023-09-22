@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NewsBigCardComponent } from './news-big-card.component';
+import { ContentComponent } from './content.component';
 
-describe('NewsBigCardComponent', () => {
-  let component: NewsBigCardComponent;
-  let fixture: ComponentFixture<NewsBigCardComponent>;
+describe('ContentComponent', () => {
+  let component: ContentComponent;
+  let fixture: ComponentFixture<ContentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NewsBigCardComponent ]
+      declarations: [ ContentComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(NewsBigCardComponent);
+    fixture = TestBed.createComponent(ContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,4 +21,3 @@ describe('NewsBigCardComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
